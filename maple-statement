@@ -1,0 +1,11 @@
+10000<s:=0
+10001<s:=0
+10002<s:=0
+10003<s:=0
+10000<for i from 1 to 1000 do i end do
+10001<for i from 1 to 1000 do i end do
+10002<for i from 1 to 1000 do i end do
+10003<for i from 1 to 1000 do i end do
+10003<for i from 1 to 1000000 do s:=s+i end do
+10003<for i from 1 to 10000000 do s:=s+i end do
+10003&<for i from 1 to 10000000 do s:=s+i end do

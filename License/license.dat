@@ -1,0 +1,19 @@
+# =======================================================
+# VENDOR DAEMON Section
+# =======================================================
+VENDOR maplelmg
+# =======================================================
+# FEATURE Section
+# =======================================================
+
+# your license for Maple includes these components
+
+PACKAGE Maple9.5WithExcel maplelmg 2005.0430 \
+	COMPONENTS="Maple9.5Excel Maple9.5" OPTIONS=SUITE \
+	SIGN=0880EA3A1C52
+# The following line licenses the given feature
+
+FEATURE Maple9.5WithExcel maplelmg 2005.0430 permanent uncounted \
+	HOSTID=ANY PLATFORMS="i86_n ppc_mac i86_r i86_g" \
+	ISSUER="Waterloo Maple Inc." ISSUED=30-jan-2004 \
+	NOTICE=Single-User SN=20000112 TS_OK SIGN=95D2271A1D92

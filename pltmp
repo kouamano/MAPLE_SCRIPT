@@ -1,0 +1,11 @@
+server := proc( sid )
+	local s, res;
+	use Sockets in
+	interface(prettyprint=0);
+	s := Read(sid,20);
+	res := eval(parse(s));
+	Write( sid, sprintf( " Client:%s-%d, \r\n Name:%s,\r\n sid:%d,\r\n string:%s,\r\n result:%q.\r\n", GetPeerHost( sid ), GetPeerPort( sid ), GetHostName(), sid, s, res) );
+	end use
+end proc:
+
+Sockets:-Serve( 10023, server );

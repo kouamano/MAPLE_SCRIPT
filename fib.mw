@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet><Version major="6" minor="1"/><View-Properties><Zoom percentage="100"/></View-Properties><Styles><Layout alignment="left" bullet="none" firstindent="0.0" leftmargin="0.0" linebreak="space" linespacing="0.0" name="Normal" rightmargin="0.0" spaceabove="0.0" spacebelow="0.0"/><Layout alignment="centred" bullet="none" linespacing="0.5" name="Maple Output"/><Font background="[0,0,0]" bold="true" executable="true" family="Monospaced" foreground="[255,0,0]" name="Maple Input" opaque="false" size="12"/><Font background="[0,0,0]" family="Lucida Bright" foreground="[0,0,255]" name="2D Output" opaque="false" readonly="true" size="12"/></Styles><Group><Input><Text-field layout="Normal" prompt="&gt; " style="Maple Input">fib := proc(n)
+if n = 0 then 1
+else if n = 1 then 1
+else fib(n-2) + fib(n-1)
+end if; end if;
+end proc:</Text-field></Input><Input><Text-field prompt="&gt; " style="Maple Input"/></Input></Group><Group><Input><Text-field layout="Normal" prompt="&gt; " style="Maple Input">fib(27);</Text-field></Input><Output><Text-field layout="Maple Output" style="2D Output"><Equation>NiMiJzZ5Sg==</Equation></Text-field></Output></Group><Group><Input><Text-field layout="Normal" prompt="&gt; " style="Maple Input">t:=time();
+fib(28);
+time()-t;</Text-field></Input><Output><Text-field layout="Maple Output" style="2D Output"><Equation>NiM+SSJ0RzYiJCIlZjkhIiQ=</Equation></Text-field></Output><Output><Text-field layout="Maple Output" style="2D Output"><Equation>NiMiJ0hVXg==</Equation></Text-field><Text-field layout="Maple Output" style="2D Output"><Equation>NiMkIiVxPyEiJA==</Equation></Text-field></Output></Group><Group><Input><Text-field layout="Normal" prompt="&gt; " style="Maple Input"/></Input></Group><Text-field/><Text-field/></Worksheet>

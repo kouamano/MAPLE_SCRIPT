@@ -1,0 +1,22 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 
+0 0 1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "restart:\nwith(Socke
+ts):" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 33 "hostName:=\"qa14-wx
+p\":\nport:=2525:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "sid:=O
+pen(hostName,port):" }}}{EXCHG }{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+23 "sendMsg:=\"Hello there\":" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 25 "size:=Write(sid,sendMsg):" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 20 "getMsg:=Read(sid,1):" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 113 "printf(\"%s:\\nReceived Message: %s\\n from: %s\\n port: %d\",G
+etHostName(),getMsg,GetPeerHost(sid),GetPeerPort(sid));" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "Close(sid):" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "1 0 0" 11 }{VIEWOPTS 1 1 0 1 1 
+1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }
